@@ -1,172 +1,182 @@
-{
-    "Records": [
         {
-            "keywords": "INDITEX group",
-            "limit": 1000,
+            "keywords": "adidas group",
+            "limit": 100,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
+        },
         {
-            "keywords": "ING Group",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },          
-        {
-            "keywords": "Intesa Sanpaolo",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "kering",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "Koninklijke Ahold Delhaize",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "Linde",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "L'Oreal group",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "lvmh group",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "munich re",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "Nokia group",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "Orange S.A.",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },  
-        {
-            "keywords": "Royal Philips NV",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        },          
-        {
-            "keywords": "safran group",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
-        {
-            "keywords": "Sanofi",
-            "limit": 1000,
-            "print_urls": true,
-            "extract_metadata": true,
-            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
-        {
-            "keywords": "SAP SE",
+            "keywords": "airbus",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
         },
         {
-            "keywords": "Schneider Electric S.E.",
+            "keywords": "air liquide",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "Siemens Aktiengesellschaft",
+            "keywords": "Allianz",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "Societe Generale SA",
+            "keywords": "Amadeus IT",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "Telefonica",
+            "keywords": "Anheuser-Busch InBev",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "TOTAL S.A.",
+            "keywords": "ASML",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "Unilever N.V.",
+            "keywords": "AXA",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "VINCI S.A.",
+            "keywords": "Banco Bilbao Vizcaya Argentaria",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "Vivendi SA",
+            "keywords": "Banco Santander",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        }, 
+        },
         {
-            "keywords": "Volkswagen AG",
+            "keywords": "Basf",
             "limit": 1000,
             "print_urls": true,
             "extract_metadata": true,
             "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
-        } 
-    ]
-}
+        },
+        {
+            "keywords": "Bayer",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+        {
+            "keywords": "BMW Group",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+        {
+            "keywords": "BNP Paribas",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+                {
+            "keywords": "CRH PLC",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+        {
+            "keywords": "Daimler AG",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+        {
+            "keywords": "danone company",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+        {
+            "keywords": "Deutsche Boerse",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },
+        {
+            "keywords": "Deutsche Post AG",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },                     
+        {
+            "keywords": "Deutsche Telekom AG",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  
+        {
+            "keywords": "Enel SpA",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  
+        {
+            "keywords": "Engie SA",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  
+        {
+            "keywords": "Eni SpA",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  
+        {
+            "keywords": "Essilorluxottica",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  
+        {
+            "keywords": "Fresenius",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  
+        {
+            "keywords": "Iberdrola",
+            "limit": 1000,
+            "print_urls": true,
+            "extract_metadata": true,
+            "chromedriver": "E://code//image-sentiment-analysis//sentiment//chromedriver.exe"
+        },  

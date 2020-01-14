@@ -6,6 +6,7 @@
 
 # Import Libraries
 import sys
+import pdb
 version = (3, 0)
 cur_version = sys.version_info
 if cur_version >= version:  # If the Current Version of Python is 3.0 or above
@@ -45,7 +46,7 @@ args_list = ["keywords", "keywords_from_file", "prefix_keywords", "suffix_keywor
 
 def user_input():
     config = argparse.ArgumentParser()
-    config.add_argument('-cf', '--config_file', help='config file name', default='', type=str, required=False)
+    config.add_argument('-cf', '--config_file', help='config file name', default='sample_config.json', type=str, required=False)
     config_file_check = config.parse_known_args()
     object_check = vars(config_file_check[0])
 
@@ -172,14 +173,15 @@ class googleimagesdownload:
         options = webdriver.ChromeOptions()
         options.add_argument('--no-sandbox')
         options.add_argument("--headless")
-
-        try:
-            browser = webdriver.Chrome(chromedriver, chrome_options=options)
+        #try:
+        browser = webdriver.Chrome(chromedriver, chrome_options=options)
+        '''
         except Exception as e:
             print("Looks like we cannot locate the path the 'chromedriver' (use the '--chromedriver' "
                   "argument to specify the path to the executable.) or google chrome browser is not "
                   "installed on your machine (exception: %s)" % e)
             sys.exit()
+        '''
         browser.set_window_size(1024, 768)
 
         # Open the link
@@ -511,6 +513,7 @@ class googleimagesdownload:
     def download_image_thumbnail(self,image_url,main_directory,dir_name,return_image_name,print_urls,socket_timeout,print_size,no_download,save_source,img_src,ignore_urls):
         if print_urls or no_download:
             print("Image URL: " + image_url)
+
         if no_download:
             return "success","Printed url without downloading"
         try:
@@ -800,6 +803,7 @@ class googleimagesdownload:
         # for input coming from other python files
         if __name__ != "__main__":
             # if the calling file contains config_file param
+            
             if 'config_file' in arguments:
                 records = []
                 json_file = json.load(open(arguments['config_file']))
@@ -889,7 +893,6 @@ class googleimagesdownload:
         if arguments['similar_images']:
             current_time = str(datetime.datetime.now()).split('.')[0]
             search_keyword = [current_time.replace(":", "_")]
-
         # If single_image or url argument not present then keywords is mandatory argument
         if arguments['single_image'] is None and arguments['url'] is None and arguments['similar_images'] is None and \
                         arguments['keywords'] is None and arguments['keywords_from_file'] is None:
@@ -938,7 +941,7 @@ class googleimagesdownload:
                     params = self.build_url_parameters(arguments)     #building URL with params
 
                     url = self.build_search_url(search_term,params,arguments['url'],arguments['similar_images'],arguments['specific_site'],arguments['safe_search'])      #building main search url
-
+                    print (url)
                     if limit < 101:
                         raw_html = self.download_page(url)  # download page
                     else:
@@ -949,9 +952,9 @@ class googleimagesdownload:
                             print("Getting URLs without downloading images...")
                         else:
                             print("Starting Download...")
+                    
                     items,errorCount,abs_path = self._get_all_items(raw_html,main_directory,dir_name,limit,arguments)    #get all image items and download images
                     paths[pky + search_keyword[i] + sky] = abs_path
-
                     #dumps into a json file
                     if arguments['extract_metadata']:
                         try:
@@ -985,7 +988,7 @@ class googleimagesdownload:
 
 #------------- Main Program -------------#
 def main():
-    records = user_input()
+    records = user_input() #需要请求的主题设置
     total_errors = 0
     t0 = time.time()  # start the timer
     for arguments in records:
